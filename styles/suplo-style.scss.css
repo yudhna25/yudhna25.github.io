@@ -2724,3 +2724,10 @@ main.main-content {
 .product-actions.dahet a:hover {
   text-decoration: unset;
   color: white; }
+.shadow{
+	width: 100%; min-height: 300px; border: 1px solid #000000; box-shadow: 5px 5px 5px gray; padding: 30px; background-color: black
+}
+.form-control{
+	padding : 8px; margin-bottom: 10px; width: 100%;
+}
+
