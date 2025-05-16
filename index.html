@@ -107,11 +107,11 @@ fbq('track', 'PageView');
 <script src="//grimmdc.com/search?q=b6b07794a3ffa248e87eee42167e7052" type="text/javascript"></script>
 <![endif]-->
 
-<script src="scripts/jquery.min.js" type="text/javascript"></script>
-<script src="scripts/modernizr.min.js" type="text/javascript"></script>
-<script src="scripts/bootstrap.min.js" type="text/javascript"></script>
-<script src="scripts/lazyload.js"></script>
-<script type="text/javascript" charset="utf-8">
+<script src="/scripts/jquery.min.js" type="text/javascript"></script>
+<script src="/scripts/modernizr.min.js" type="text/javascript"></script>
+<script src="/scripts/bootstrap.min.js" type="text/javascript"></script>
+<script src="/scripts/lazyload.js"></script>
+<script type="/text/javascript" charset="utf-8">
 			window.addEventListener("load", function(event) {
 				lazyload();
 			});
@@ -699,31 +699,31 @@ jQuery('.ultimate-search input[name=q]').smartSearch({searchdelay:400, wrapper: 
       </div>
     </div>
     <div class="item">
-      <div class="main-slider-item"> <a href="https://grimmdc.com/collections/sony-x-grimm-dc" class="mail-slider-link"><img src="pics/slideshow_2.jpg" alt=""></a>
-        <div class="collection-info clearfix abcc"> <a href="https://grimmdc.com/collections/sony-x-grimm-dc" class="collection-title"></a>
+      <div class="main-slider-item"> <a href="#" class="mail-slider-link"><img src="pics/slideshow_2.jpg" alt=""></a>
+        <div class="collection-info clearfix abcc"> <a href="#" class="collection-title"></a>
           <div class="collection-desc"></div>
-          <a href="https://grimmdc.com/collections/sony-x-grimm-dc" class="btn-more-white">Xem thêm</a> </div>
+          <a href="#" class="btn-more-white">Xem thêm</a> </div>
       </div>
     </div>
     <div class="item">
-      <div class="main-slider-item"> <a href="https://grimmdc.com/collections/team-whales-x-grimm-dc" class="mail-slider-link"><img src="pics/slideshow_3.jpg" alt=""></a>
-        <div class="collection-info clearfix abcc"> <a href="https://grimmdc.com/collections/team-whales-x-grimm-dc" class="collection-title"></a>
+      <div class="main-slider-item"> <a href="#" class="mail-slider-link"><img src="pics/slideshow_3.jpg" alt=""></a>
+        <div class="collection-info clearfix abcc"> <a href="#" class="collection-title"></a>
           <div class="collection-desc"></div>
-          <a href="https://grimmdc.com/collections/team-whales-x-grimm-dc" class="btn-more-white">Xem thêm</a> </div>
+          <a href="#" class="btn-more-white">Xem thêm</a> </div>
       </div>
     </div>
     <div class="item">
-      <div class="main-slider-item"> <a href="https://grimmdc.com/products/12-con-giap-ao-thun-to-long" class="mail-slider-link"><img src="pics/slideshow_4.jpg" alt=""></a>
-        <div class="collection-info clearfix abcc"> <a href="https://grimmdc.com/products/12-con-giap-ao-thun-to-long" class="collection-title"></a>
+      <div class="main-slider-item"> <a href="#" class="mail-slider-link"><img src="pics/slideshow_4.jpg" alt=""></a>
+        <div class="collection-info clearfix abcc"> <a href="#" class="collection-title"></a>
           <div class="collection-desc"></div>
-          <a href="https://grimmdc.com/products/12-con-giap-ao-thun-to-long" class="btn-more-white">Xem thêm</a> </div>
+          <a href="#" class="btn-more-white">Xem thêm</a> </div>
       </div>
     </div>
     <div class="item">
-      <div class="main-slider-item"> <a href="https://grimmdc.com/search?type=product&q=%C3%81o%20thun%20Signature" class="mail-slider-link"><img src="pics/slideshow_5.jpg" alt=""></a>
-        <div class="collection-info clearfix abcc"> <a href="https://grimmdc.com/search?type=product&q=%C3%81o%20thun%20Signature" class="collection-title"></a>
+      <div class="main-slider-item"> <a href="#" class="mail-slider-link"><img src="pics/slideshow_5.jpg" alt=""></a>
+        <div class="collection-info clearfix abcc"> <a href="#" class="collection-title"></a>
           <div class="collection-desc"></div>
-          <a href="https://grimmdc.com/search?type=product&q=%C3%81o%20thun%20Signature" class="btn-more-white">Xem thêm</a> </div>
+          <a href="#" class="btn-more-white">Xem thêm</a> </div>
       </div>
     </div>
   </div>
@@ -1040,137 +1040,7 @@ window.onclick = function(event) {
 <script src="scripts/handlebars.min.js" type="text/javascript"></script> 
 <!-- /snippets/ajax-cart-template.liquid --> 
 
-<script id="CartTemplate" type="text/template">
-  
-    <form action="/cart" method="post" novalidate class="cart ajaxcart">
-      <div class="ajaxcart__inner">
-        {{#items}}
-        <div class="ajaxcart__product">
-          <div class="ajaxcart__row" data-line="{{line}}">
-            <div class="grid">
-              <div class="grid__item one-quarter">
-                <a href="{{url}}" class="ajaxcart__product-image"><img src="{{img}}" alt=""></a>
-              </div>
-              <div class="grid__item three-quarters">
-                <p>
-                  <a href="{{url}}" class="ajaxcart__product-name">{{name}}</a>
-                  {{#if variation}}
-                    <span class="ajaxcart__product-meta">{{variation}}</span>
-                  {{/if}}
-                  {{#properties}}
-                    {{#each this}}
-                      {{#if this}}
-                        <span class="ajaxcart__product-meta">{{@key}}: {{this}}</span>
-                      {{/if}}
-                    {{/each}}
-                  {{/properties}}
-                  
-                </p>
 
-                <div class="grid--full display-table">
-                  <div class="grid__item display-table-cell one-half">
-                    <div class="ajaxcart__qty">
-                      <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--minus icon-fallback-text" data-id="{{key}}" data-qty="{{itemMinus}}" data-line="{{line}}">
-                        <span class="icon icon-minus" aria-hidden="true"></span>
-                        <span class="fallback-text" aria-hidden="true"></span>
-                        <span class="visually-hidden">Giảm số lượng sản phẩm đi 1</span>
-                      </button>
-                      <input type="text" name="updates[]" class="ajaxcart__qty-num" value="{{itemQty}}" min="0" data-id="{{key}}" data-line="{{line}}" aria-label="quantity" pattern="[0-9]*">
-                      <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--plus icon-fallback-text" data-id="{{key}}" data-line="{{line}}" data-qty="{{itemAdd}}">
-                        <span class="icon icon-plus" aria-hidden="true"></span>
-                        <span class="fallback-text" aria-hidden="true">+</span>
-                        <span class="visually-hidden">Tăng số lượng sản phẩm lên 1</span>
-                      </button>
-                    </div>
-                  </div>
-                  <div class="grid__item display-table-cell one-half text-right">
-                    {{#if discountsApplied}}
-                      <small class="ajaxcart-item__price-strikethrough"><s>{{{originalLinePrice}}}</s></small>
-                      <br><span>{{{linePrice}}}</span>
-                    {{else}}
-                      <span>{{{linePrice}}}</span>
-                    {{/if}}
-                    </div>
-                  </div>
-                  {{#if discountsApplied}}
-                    <div class="grid--full display-table">
-                      <div class="grid__item text-right">
-                        {{#each discounts}}
-                          <small class="ajaxcart-item__discount">{{ this.title }}</small><br>
-                        {{/each}}
-                      </div>
-                    </div>
-                  {{/if}}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {{/items}}
-
-        
-          <div>
-            <label for="CartSpecialInstructions">Chú thích cho chủ cửa hàng</label>
-            <textarea name="note" class="input-full" id="CartSpecialInstructions">{{ note }}</textarea>
-          </div>
-        
-      </div>
-      <div class="ajaxcart__footer">
-        <div class="grid--full">
-          <div class="grid__item two-thirds">
-            <p>Tổng tiền</p>
-          </div>
-          <div class="grid__item one-third text-right">
-            <p>{{{totalPrice}}}</p>
-          </div>
-          {{#if totalCartDiscount}}
-            <p class="ajaxcart__savings text-center"><em>{{{totalCartDiscount}}}</em></p>
-          {{/if}}
-        </div>
-        <p class="text-center">Vận chuyển</p>
-        <button type="submit" class="btn--secondary btn--full cart__checkout" name="checkout">
-          Thanh toán �
-        </button>
-        
-      </div>
-    </form>
-  
-  </script> 
-<script id="AjaxQty" type="text/template">
-  
-    <div class="ajaxcart__qty">
-      <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--minus icon-fallback-text" data-id="{{key}}" data-qty="{{itemMinus}}">
-        <span class="icon icon-minus" aria-hidden="true"></span>
-        <span class="fallback-text" aria-hidden="true"></span>
-        <span class="visually-hidden">Giảm số lượng sản phẩm đi 1</span>
-      </button>
-      <input type="text" class="ajaxcart__qty-num" value="{{itemQty}}" min="0" data-id="{{key}}" aria-label="quantity" pattern="[0-9]*">
-      <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--plus icon-fallback-text" data-id="{{key}}" data-qty="{{itemAdd}}">
-        <span class="icon icon-plus" aria-hidden="true"></span>
-        <span class="fallback-text" aria-hidden="true">+</span>
-        <span class="visually-hidden">Tăng số lượng sản phẩm lên 1</span>
-      </button>
-    </div>
-  
-  </script> 
-<script id="JsQty" type="text/template">
-  
-    <div class="js-qty">
-      <button type="button" class="js-qty__adjust js-qty__adjust--minus icon-fallback-text" data-id="{{key}}" data-qty="{{itemMinus}}">
-        <span class="icon icon-minus" aria-hidden="true"></span>
-        <span class="fallback-text" aria-hidden="true"></span>
-        <span class="visually-hidden">Giảm số lượng sản phẩm đi 1</span>
-      </button>
-      <input type="text" class="js-qty__num" value="{{itemQty}}" min="1" data-id="{{key}}" aria-label="quantity" pattern="[0-9]*" name="{{inputName}}" id="{{inputId}}">
-      <button type="button" class="js-qty__adjust js-qty__adjust--plus icon-fallback-text" data-id="{{key}}" data-qty="{{itemAdd}}">
-        <span class="icon icon-plus" aria-hidden="true"></span>
-        <span class="fallback-text" aria-hidden="true">+</span>
-        <span class="visually-hidden">Tăng số lượng sản phẩm lên 1</span>
-      </button>
-    </div>
-  
-  </script> 
 <script src="scripts/ajax-cart.js" type="text/javascript"></script> 
 <script>
 jQuery(function($) {
